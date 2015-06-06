@@ -1,15 +1,9 @@
 {
-    "name": "zhimei/wechat",
+    "name": "vin/wechat",
     "description": "Wechat SDK for Laravel 5",
-    "keywords": ["wechat", "zhimei", "weixin", "laravel"],
+    "keywords": ["wechat", "vin", "weixin", "laravel"],
     "license": "MIT",
-    "homepage": "http://www.zhimei360.com",
-    "authors": [
-        {
-            "name": "Zhimei",
-            "email": "lyuguang@zhimei360.com"
-        }
-    ],
+
     "require": {
         "php": ">=5.4.0"
     },
@@ -22,7 +16,7 @@
             "src/helpers.php"
         ],
         "psr-4": {
-            "Zhimei\\LaravelWechat\\": "src/"
+            "Vin\\LaravelWechat\\": "src/"
         }
     },
     "minimum-stability": "dev"
