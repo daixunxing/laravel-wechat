@@ -8,11 +8,11 @@
 
 ###1、安装
 
-请先确认已经安装Composer. 编辑 `composer.json` 文件，然后加入 `zhimei/wechat`.
+请先确认已经安装Composer. 编辑 `composer.json` 文件，然后加入 `vin/wechat`.
 
 ```
 "require": {
-    "zhimei/wechat": "dev-master"
+    "vin/wechat": "dev-master"
 }
 ```
 
@@ -23,13 +23,13 @@
 打开 `app/config/app.php` ， 在`'providers'` 下添加：
 
 ```
-'Zhimei\LaravelWechat\ServiceProvider\WechatServiceProvider',
+'Vin\LaravelWechat\ServiceProvider\WechatServiceProvider',
 ```
 
 在`'aliases'` 下添加：
 
 ```
-'Wechat' => 'Zhimei\LaravelWechat\Facade\Wechat',
+'Wechat' => 'Vin\LaravelWechat\Facade\Wechat',
 ```
 
 然后配置文件 app/config/wechat.php 。
